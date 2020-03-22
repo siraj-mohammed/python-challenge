@@ -10,7 +10,7 @@ while not os.path.exists(datafile):
 
 total_votes = 0 # Count of all entries in the dataset
 candidate_votes = {} # Dictionary of all candidates and the total count of votes they won
-winner = {'name':'','votes':0} # To stote the winning candidate name and vote count
+winner = {'name':'','votes':0} # To store the winning candidate name and vote count
 
 with open(datafile, "r") as csvinput:
     csvreader = csv.reader(csvinput, delimiter=',')
