@@ -25,7 +25,7 @@ with open(datafile, "r") as csvinput:
 
 ## Print the analysis to file
 with open("output.txt", "w") as output:
-    output.write("PyRoll Election Results:\n")
+    output.write("PyPoll Election Results:\n")
     output.write("--------------------------\n")
     output.write(f"Total Votes: {total_votes}\n")
     output.write("--------------------------\n")
